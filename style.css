@@ -1,0 +1,84 @@
+/* for styling */
+
+html{
+  font-family: cursive;
+  background: #100a1c;
+  background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+}
+
+.container {
+ text-align : center;
+ max-width: 100%;
+}
+ 
+table{
+margin : auto;
+ }
+
+button{
+    width: 147px;
+    height: 64.5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid #f1f3f4;
+    background-color: #f1f3f4;
+    font-size: 25px;
+    cursor: pointer;
+
+ }
+
+ button:active{
+    border : 2px solid #dce5e9;
+ }
+
+#input{
+   width: 594px;
+   height: 77px;
+   margin-bottom:  10px;
+   border-radius: 5px;
+   border: 1px solid #d4dce0;;
+   font-size: 35px;
+   padding: 0px 10px;
+   text-align: right;
+
+ }
+
+ .secondarybtn{
+     background-color:#dadce0;
+ }
+ .ansbtn {
+
+    background-color: #4285f4;
+    font-weight: 700;
+    color: white;
+  
+    
+ }
+
+ #backbtn{
+
+   background-color: #dadce0;
+   text-decoration-color: #dadce0;
+ }
+
+ @media screen and (max-width: 800px) {
+   button{
+     width: 15vw;
+     font-size: 4vw;
+     
+   }
+   #input{
+      width: 61vw;
+
+   }
+   #h1{
+      font-size: 6vw;
+      }
+
+   div #footer{
+         font-size: 2vw;
+   }
+ }
